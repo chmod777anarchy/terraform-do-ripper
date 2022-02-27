@@ -1,0 +1,8 @@
+[Unit]
+Description=Install and run Dripper
+
+[Service]
+ExecStart=/opt/startup.sh
+
+[Install]
+WantedBy=multi-user.target
